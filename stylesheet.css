@@ -1,0 +1,108 @@
+*{
+  margin: auto 0;
+  /* background-color: black; */
+}
+
+
+
+.container{
+    background-color: black;
+}
+
+.container-white{
+background-color: white;
+}
+
+.nav-bar{
+  padding-top: 64px;
+    padding-bottom: 64px;
+  color: white;
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  box-sizing: border-box;
+  width: 40%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.logo img{
+  margin-right: 15px;
+}
+
+
+.list {
+  width: 60%;
+box-sizing: border-box;
+}
+
+.list ul{
+  font-family: 'Inter', sans-serif;
+  list-style: none;
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+
+.list li{
+/* width: 25%; */
+font-size: 16px;
+
+}
+
+.page-padding{
+  overflow: visible;
+  padding-right: 100px;
+  padding-left: 100px;
+  border: 1px #000;
+  object-fit: none;
+}
+
+.new{
+  background-color: purple;
+  padding:3px;
+  font-size: 12px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.left{
+  width: 50%;
+  color: white;
+
+}
+
+.left h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+.left p{
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  padding-bottom: 30px;
+}
+
+.right {
+  width: 44%;
+  margin-top: 30px;
+}
+
+.right img{
+    object-fit: contain;
+}
+
+.introduction{
+  display: flex;
+  justify-content: space-between;
+}
